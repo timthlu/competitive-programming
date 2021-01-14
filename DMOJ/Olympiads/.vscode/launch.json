@@ -1,0 +1,242 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DisjointSetTest",
+            "request": "launch",
+            "mainClass": "DisjointSetTest",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Sirtet",
+            "request": "launch",
+            "mainClass": "Sirtet",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LoanRepayment",
+            "request": "launch",
+            "mainClass": "LoanRepayment",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BerryPicking",
+            "request": "launch",
+            "mainClass": "BerryPicking",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AWeightyProblem",
+            "request": "launch",
+            "mainClass": "AWeightyProblem",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PiDay",
+            "request": "launch",
+            "mainClass": "PiDay",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Quests",
+            "request": "launch",
+            "mainClass": "Quests",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SimonAndMarcy",
+            "request": "launch",
+            "mainClass": "SimonAndMarcy",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Knapsack2",
+            "request": "launch",
+            "mainClass": "Knapsack2",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Knapsack1",
+            "request": "launch",
+            "mainClass": "Knapsack1",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TintedGlassWindow",
+            "request": "launch",
+            "mainClass": "TintedGlassWindow",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ChristmasGifts",
+            "request": "launch",
+            "mainClass": "ChristmasGifts",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AthenaOnZanzibarIsland",
+            "request": "launch",
+            "mainClass": "AthenaOnZanzibarIsland",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GiftDivision",
+            "request": "launch",
+            "mainClass": "GiftDivision",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SegmentTreeTest",
+            "request": "launch",
+            "mainClass": "SegmentTreeTest",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HolyGrailWar",
+            "request": "launch",
+            "mainClass": "HolyGrailWar",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PinballRanking",
+            "request": "launch",
+            "mainClass": "PinballRanking",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SomeName",
+            "request": "launch",
+            "mainClass": "SomeName",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PusheenEatsTunaSashimiAndTunaNigiri",
+            "request": "launch",
+            "mainClass": "PusheenEatsTunaSashimiAndTunaNigiri",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FloorPlan",
+            "request": "launch",
+            "mainClass": "FloorPlan",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AFK",
+            "request": "launch",
+            "mainClass": "AFK",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Maze",
+            "request": "launch",
+            "mainClass": "Maze",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RogersStarMap",
+            "request": "launch",
+            "mainClass": "RogersStarMap",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RangeMaxQuery",
+            "request": "launch",
+            "mainClass": "RangeMaxQuery",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RunningInCircles",
+            "request": "launch",
+            "mainClass": "RunningInCircles",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DiverseSubarray",
+            "request": "launch",
+            "mainClass": "DiverseSubarray",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FenwickTreeQuestion",
+            "request": "launch",
+            "mainClass": "FenwickTreeQuestion",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BobsMathHomework",
+            "request": "launch",
+            "mainClass": "BobsMathHomework",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FakeJudges",
+            "request": "launch",
+            "mainClass": "FakeJudges",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FarthestHiking",
+            "request": "launch",
+            "mainClass": "FarthestHiking",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IsItATree",
+            "request": "launch",
+            "mainClass": "IsItATree",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Cipele",
+            "request": "launch",
+            "mainClass": "Cipele",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PatternGenerator",
+            "request": "launch",
+            "mainClass": "PatternGenerator",
+            "projectName": "Olympiads_33c5e1da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MarshmallowMolecules",
+            "request": "launch",
+            "mainClass": "MarshmallowMolecules",
+            "projectName": "Olympiads_33c5e1da"
+        }
+    ]
+}

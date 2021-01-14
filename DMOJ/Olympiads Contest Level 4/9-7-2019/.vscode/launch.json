@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BarkingDogs",
+            "request": "launch",
+            "mainClass": "BarkingDogs",
+            "projectName": "9-7-2019_5ea1f74f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Cuskija",
+            "request": "launch",
+            "mainClass": "Cuskija",
+            "projectName": "9-7-2019_5ea1f74f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PinballMachine",
+            "request": "launch",
+            "mainClass": "PinballMachine",
+            "projectName": "9-7-2019_5ea1f74f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MobilePhones",
+            "request": "launch",
+            "mainClass": "MobilePhones",
+            "projectName": "9-7-2019_5ea1f74f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BinaryIndexedTreeTest",
+            "request": "launch",
+            "mainClass": "BinaryIndexedTreeTest",
+            "projectName": "9-7-2019_5ea1f74f"
+        }
+    ]
+}

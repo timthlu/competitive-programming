@@ -1,0 +1,52 @@
+DP
+- used for optimization
+- combines solutions to subproblems
+- uses a table to store previous answers to subproblems, then uses them to solve larger and larger problems
+    - store + reuse in the future
+
+1. Have a table & dp state (what does row and column represent, is it 1D, 2D, 3D, what does the value inside represent)
+2. Transition (how do you use the previous answers?)
+
+- Implementation: bottom up: first find optimal solutions to subproblems, then join their answers to find even more
+
+Knapsack
+- Types of knapsack: 0-1, complete, multiple, mixed
+- 0-1:
+    - n items
+    - item i is worth v, weighs w; i, v, and w are all positive integers
+    - find the most valuable subset of items with total weight <= W
+    - you can either take an item or not take it (no splitting)
+    - greedy solutions won't work (e.g. choosing most valuable objects, choosing smallest object, choosing most valuable by weight)
+    - Solution:
+        - let W be the capacity of knapsack
+        - let vi, wi = value and weight of item i e [1, 2, ... n]
+        - order of adding items doesn't matter, since optimal solution won't change
+        - dp state: dp[i][w] = maximum value
+            - row: the items you're allow to put in the bag (0, 1st, 1st & 2nd, 1st & 2nd & 3rd, etc.)
+            - col: current weight you're considering
+        - base cases:
+            - dp[i][0] = 0 (if your current weight = 0, you can't put any items in it)
+            - dp[0][w] = 0 (if you have no items, you can't put anything in the bag)
+        - if wi > W, cannot put in, then dp[i][w] = dp[i-1, w]
+        - if wi <= W, fits in bag, then dp[i][w] = max(vi + dp[i-1, w-wi (weight left)] (if you include item), dp[i-1][w] (don't include it));
+    - to find which items you put inside the knapsack:
+        - if value is greater than value in the previous row, then you chose it. If not, then compare upwards again
+        - subtract the weight & compare again with previous row
+    - time complexity: O(n*W)
+        - it will take (n*W)/10^9 seconds to process
+        - if W is too large for time requirement, make dp state: dp[item][value] = min weight to make that value using the current items --> O(n*max value)
+        - if n is too large for time requirement, use priority queue to find the best elements in each weight: all elements for w=1, 1/2 elements for w=2, 1/3 elements for w=3 ... 1 element for w=w, and do 0-1 knapsack with those 
+            - therefore number of items = WlogW
+            - therefore entire time complexity: O(W^2 * logW)
+    - memory complexity: O(n*W), but can be shortened to a 1D array, since you only an element in the previous row in a previous column to do it
+        - therefore, you loop from right to left instead of left to right (in order to preserve previous elements needed for the later ones)
+        - therefore memory capacity is O(W)
+        - if you need to trace which items you need, you can't do this; you have to use the full table
+    - what if there's a requirement that the knapsack must be filled to the brim in order for it to count? (all capacity is taken)
+        - only initialize dp[0][0] = 0, all others in the first row be -infinity
+        - the way this works is that all elements must be added to 0, 0 (such that there's no weight left when there are no items left) to ensure that all capacity is used up
+- unlimited items 0-1: you can choose items multiple times
+    - only 1 change from normal 0-1 knapsack: dp[i][w] = max(vi + dp[i][w-wi], vi + dp[i-1][w-wi], dp[i-1][w]);
+    - 3 options: choose it again, choose it once, or don't choose it
+    - choosing it again must iterate from left to right (since it uses new values)
+    - choosing it once must iterate from right to left (since it uses values from a previous row and previous column)

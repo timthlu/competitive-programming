@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BarkingDogs",
+            "request": "launch",
+            "mainClass": "BarkingDogs",
+            "projectName": "9-21-2019_73ab9b81"
+        }
+    ]
+}
